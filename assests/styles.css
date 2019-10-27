@@ -4,7 +4,7 @@ font-family: arial, sans-serif;
 }
 
 .wrapper {
-    background: #ffffff; 
+    background-color;: #ffffff; 
     width: 92%;
     max-width: 800px;
     margin: 0 auto;
@@ -51,3 +51,14 @@ ul {
     p {
         line-height: 2em;
     }
+
+    header {
+        background-image: url(../images/tiny-squares.png);
+        border-bottom: 2px solid #d2d2d2;
+        text-align: center;
+    }
+    footer.wrapper {
+        text-align: center;
+        padding: 40px; 
+        padding-bottom: 40px; 20px;
+        border-top: 2px solid  #d2d2d2;
