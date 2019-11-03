@@ -19,6 +19,10 @@ h1 {
     margin-bottom: .5em;
 }
 
+h1#page-title {
+    margin: 0;
+}
+
 h2 {
     margin-bottom: .25em;
     margin-top: 1em;
@@ -38,7 +42,6 @@ margin-right: 0;
 }
 
 .image {
-    text-align: center;
     margin: .5em 0;
 .caption {
     font-style: italic;
@@ -61,28 +64,29 @@ ul {
         border-bottom: 2px solid #d2d2d2;
         text-align: center;
     }
-    footer.wrapper
-     {
-        text-align: center;
-        padding: 40px; 
+
+    header.wrapper {
+        padding: 26px 20px;
+    }
+
+    footer.wrapper{
+      text-align: center;
+        padding: 26px 20px;
         padding-bottom: 40px; 20px;
         border-top: 2px solid  #d2d2d2;
      }
-     
+
+     article {
+         padding-top: 14px;
+     }
+
+     aside h2 {
+         font-size: 1.4rems;
+     }
+
     @media all and (min-width: 920px) { 
     article, aside {
-        float: left;
-    }
-
-    article {
-        width: 75%;
-        padding-right: 20px;
-
-    }
-    
-    aside {
-        width: 25%;
-    } 
+   
     aside + h2 {
         margin-top: 14px;
 
